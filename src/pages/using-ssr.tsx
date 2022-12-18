@@ -1,10 +1,17 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import type { PageProps } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const UsingSSR = ({ serverData }) => {
+interface IUsingSsrProps {
+  serverData: {
+    message: string
+  }
+}
+
+const UsingSSR = ({ serverData }: IUsingSsrProps) => {
   return (
     <Layout>
       <h1>

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "athumblog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "AThumb Log - Dev & Life",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "thumbsu <uumj222@gmail.com>",
   "dependencies": {
     "gatsby": "^5.3.2",
     "gatsby-plugin-image": "^3.3.2",
@@ -15,7 +15,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "prettier": "^2.8.0"
+    "@types/node": "^18.11.17",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.4"
   },
   "keywords": [
     "gatsby"
@@ -32,9 +36,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/thumbsu/athumblog"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/thumbsu/athumblog/issues"
   }
 }

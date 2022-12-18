@@ -1,7 +1,11 @@
-import * as React from "react"
 import { Link } from "gatsby"
+import * as React from "react"
 
-const Header = ({ siteTitle }) => (
+interface IHeaderProps {
+  siteTitle: string
+}
+
+const Header = ({ siteTitle }: IHeaderProps) => (
   <header
     style={{
       margin: `0 auto`,
